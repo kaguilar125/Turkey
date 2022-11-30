@@ -22,3 +22,49 @@ li{
     position: absolute;
     transform: scaleX(1) scaley(2) translate(500px, 100px) skewX(10deg) skew(20deg,10deg);
 }
+
+div{
+    width: 300px;
+    height: 100px;
+    background-color: #333;
+    border: 1px solid black;
+    color: white;
+    text-align:center;
+}
+
+#myDiv{
+    transform: rotateX(0deg);
+    transition-duration: 2s; 
+}
+
+#myDiv:hover{
+    transform: rotateX(180deg);
+}
+
+#myDiv2{
+    transform: rotateY(0deg);
+    transition-duration: 2s; 
+}
+
+#myDiv2:hover{
+    transform: rotateY(180deg);
+}
+
+#myDiv3{
+    transform: rotateZ(0deg);
+    transition-duration: 2s; 
+}
+
+#myDiv3:hover{
+    transform: rotateZ(180deg);
+}
+/* -------------------------------- */
+#nav{
+    text-decoration: none;
+    background-color: lightgray;
+    border: 2px solid gray;
+    color: darkolivegreen;
+    padding:10px;
+    border-radius: 15px;
+    margin: 25px;
+}
